@@ -187,8 +187,10 @@ nav {
   }
 
   #me {
-    font-size: 1.2rem !important;
-    padding-top: 13px;
+    font-size: 2rem !important;
+    padding-top: 16px;
+    padding-left: 2px;
+    font-family: 'Dosis', sans-serif;
   }
 
   @for $i from 1 through 6 {
