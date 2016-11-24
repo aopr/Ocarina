@@ -75,7 +75,7 @@ nav {
   line-height: 7rem;
   border-radius: 50%;
   transition: .3s;
-  background: #f00;
+  background: #8502C2;
   outline: none;
 }
 /* line 74, /Users/andreaperez/Desktop/Projects/ocarina/app/assets/stylesheets/welcome.scss */
@@ -91,7 +91,7 @@ nav:before, nav:after, nav > span {
   width: 46%;
   top: 33%;
   height: 8%;
-  background: #fff;
+  background: #8502C2;
   transform-origin: center;
   transition: .5s;
 }
@@ -132,7 +132,7 @@ nav a {
   background: red;
   text-align: center;
   line-height: 1.5;
-  color: #fff;
+  color: #8502C2;
   text-decoration: none;
   position: absolute;
   font-size: 4rem;
@@ -209,4 +209,3 @@ nav.clicked a:nth-child(6) {
 
 
 */
-

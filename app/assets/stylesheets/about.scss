@@ -1,10 +1,13 @@
-
+.about {
+  background-color: #2A139F;
+}
 
 .me {
   text-align: center;
-  color: white;
+  color: #FFCD00;
   font-family: 'Dosis', sans-serif;
-  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  padding-top: 15%;
 }
 
 h1 {
@@ -13,7 +16,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .pictures img {
