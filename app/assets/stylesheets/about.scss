@@ -16,6 +16,12 @@
   padding-top: 8%;
 }
 
+@media only screen and (max-width: 479px) {
+    .me {
+      width: 100%;
+    }
+}
+
 h1 {
   font-family: 'Dosis', sans-serif;
   font-size: 6rem;
@@ -32,6 +38,7 @@ h2 {
   overflow-y: hidden;
   margin: 0;
 }
+
 .picture ul {
   list-style: none;
   margin: 0;
@@ -39,6 +46,7 @@ h2 {
   display: inline-flex;
   background-color: #FFCD00;
 }
+
 .picture ul li {
   float: left;
   margin: .5rem 1rem;
