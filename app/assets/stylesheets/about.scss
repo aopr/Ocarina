@@ -2,12 +2,17 @@
   background-color: #2A139F;
 }
 
+#aopr {
+  width: 10rem;
+  height: auto;
+}
+
 .me {
   text-align: center;
   color: #FFCD00;
   font-family: 'Dosis', sans-serif;
   border-radius: 20px;
-  padding-top: 15%;
+  padding-top: 8%;
 }
 
 h1 {
@@ -20,14 +25,25 @@ h2 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.pictures img {
+#pictures {
+  padding-top: 8%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 0;
+}
+.picture ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline-flex;
-  background-color: black;
+  background-color: #FFCD00;
+}
+.picture ul li {
+  float: left;
+  margin: .5rem 1rem;
 }
 
-ul li {
-  list-style: none;
+#copan, #hagia, #loca, #salamander, #teach, #teach2 {
+  max-height: 15rem;
+  width: auto;
 }
