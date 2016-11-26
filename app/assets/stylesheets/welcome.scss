@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html, body {
+  width: 100%;
+  height: auto;
+}
+
 .container {
   position: absolute;
   z-index: -5;
@@ -9,6 +14,7 @@
   margin-bottom: 7rem;
   margin-left: 40%;
 }
+
 .name {
   position: absolute;
   width: 100%;
@@ -18,21 +24,39 @@
 }
 
 @media only screen and (max-width: 479px) {
+    html, body {
+      max-width: 479px;
+      height: auto;
+    }
+
     .name {
+      position: fixed;
       width: 100%;
     }
 
     .container {
-      margin-left: 4.3rem;
-      margin-top: 13rem;
+      position: fixed;
+      margin-left: 5rem !important;
+      margin-top: 13rem !important;
     }
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+    html, body {
+      max-width: 768px;
+      height: auto;
+    }
 
-  header {
-    min-height: 100%;
-  }
+    .name {
+      position: fixed;
+      width: 100%;
+    }
+
+    .container {
+      position: fixed;
+      margin-left: 17rem !important;
+      margin-top: 23rem !important;
+    }
 }
 
   header {

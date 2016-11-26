@@ -1,5 +1,5 @@
 .about {
-  background-color: #3E3279;
+  background-color: white;
 }
 
 #aopr {
@@ -10,10 +10,9 @@
 
 .me {
   text-align: center;
-  color: #FFCD00;
   font-family: 'Dosis', sans-serif;
   border-radius: 20px;
-  padding-top: 8%;
+  padding-top: 6%;
 }
 
 @media only screen and (max-width: 479px) {
@@ -30,6 +29,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-family: 'Open Sans', sans-serif;
+  color: #3E3279 !important;
 }
 
 #pictures {
@@ -44,7 +44,7 @@ h2 {
   margin: 0;
   padding: 0;
   display: inline-flex;
-  background-color: #FFCD00;
+  background-color: #3E3279 !important;
 }
 
 .picture ul li {
