@@ -2,17 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-html, body {
-  width: 100%;
-  height: auto;
-}
 
-.container {
-  position: absolute;
+header {
+  position: fixed;
   z-index: -5;
   margin-top: 30%;
-  margin-bottom: 7rem;
-  margin-left: 40%;
+  margin-left: 38%;
 }
 
 .name {
@@ -23,57 +18,87 @@ html, body {
   margin-top: 1%;
 }
 
-@media only screen and (max-width: 479px) {
-    html, body {
-      max-width: 479px;
-      height: auto;
-    }
-
-    .name {
-      position: fixed;
-      width: 100%;
-    }
-
-    .container {
-      position: fixed;
-      margin-left: 5rem !important;
-      margin-top: 13rem !important;
-    }
+header {
+  background-color: white;
+  background-size: cover;
 }
 
-@media only screen and (max-width: 768px) {
-    html, body {
-      max-width: 768px;
-      height: auto;
-    }
-
-    .name {
-      position: fixed;
-      width: 100%;
-    }
-
-    .container {
-      position: fixed;
-      margin-left: 17rem !important;
-      margin-top: 23rem !important;
-    }
+nav {
+  position: relative;
+  margin-top: 20%;
+  margin-bottom: 7rem;
+  z-index: 1;
 }
 
-  header {
-    position: relative;
+#projects {
+  height: 5.6rem;
+  width: auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#me {
+  font-size: 2rem !important;
+  font-weight: bold;
+  padding-top: 9px;
+  // padding-left: 2px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+@media (max-width: 360px) {
+  html, body {
+    max-width: 360px;
+    height: auto;
+  }
+
+  .name {
+    position: fixed;
     width: 100%;
-    background-color: white;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
   }
 
-  nav {
-    position: relative;
-    margin-top: 20%;
-    margin-bottom: 7rem;
-    z-index: 1;
+  .container {
+    position: fixed !important;
+    margin-top: 55%;
+    margin-left: 19%;
   }
+}
+
+@media (max-width: 414px) {
+  html, body {
+    max-width: 414px;
+    height: auto;
+  }
+
+  .name {
+    position: fixed;
+    width: 100%;
+  }
+
+  .container {
+    position: fixed !important;
+    margin-top: 55%;
+    margin-left: 19%;
+  }
+}
+
+@media (max-width: 768px) {
+  html, body {
+    max-width: 768px;
+    height: auto;
+  }
+
+  .name {
+    position: fixed;
+    width: 100%;
+  }
+
+  // .container {
+  //   position: fixed !important;
+  //   margin-top: 55%;
+  //   margin-left: 19%;
+  // }
+}
 
 @keyframes getcrossedpos {
   45% {
@@ -200,8 +225,8 @@ nav {
     background: #280ABB;
     text-align: center;
     line-height: 1.5;
-    color: #fff;
-    text-decoration: none;
+    color: #fff !important;
+    text-decoration: none !important;
     position: absolute;
     font-size: 4rem;
     text-align: center;
@@ -210,22 +235,8 @@ nav {
     transition: .4s;
     z-index: -1;
     &:hover, &:focus {
-      background-color: #000;
+      background-color: #fff;
     }
-  }
-
-  #projects {
-    height: 3rem;
-    width: auto;
-    padding-bottom: 15px;
-    padding-left: 2px;
-  }
-
-  #me {
-    font-size: 2rem !important;
-    padding-top: 16px;
-    padding-left: 2px;
-    font-family: 'Dosis', sans-serif;
   }
 
   @for $i from 1 through 6 {

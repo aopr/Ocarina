@@ -15,11 +15,6 @@
   padding-top: 6%;
 }
 
-@media only screen and (max-width: 479px) {
-    .me {
-      width: 100%;
-    }
-}
 
 h1 {
   font-family: 'Dosis', sans-serif;
@@ -55,4 +50,45 @@ h2 {
 #copan, #hagia, #loca, #salamander, #teach, #teach2 {
   max-height: 15rem;
   width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    html, body {
+      max-width: 768px;
+      height: auto;
+    }
+
+    .me {
+      position: fixed;
+      width: 100%;
+      font-size: 1.5rem;
+      padding: 6%;
+      text-align: center;
+      margin-top: 12%;
+    }
+
+    .picture {
+      margin-top: 35%;
+    }
+
+
+    .picture ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: inline-flex;
+      background-color: #3E3279 !important;
+      height: 25rem;
+    }
+
+    .picture ul li {
+      float: left;
+      margin: .5rem 1rem;
+      height: 25rem;
+    }
+
+    #copan, #hagia, #loca, #salamander, #teach, #teach2 {
+      max-height: 95.5%;
+      width: auto;
+    }
 }
