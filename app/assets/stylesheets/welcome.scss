@@ -169,7 +169,7 @@ nav {
   line-height: 7rem;
   border-radius: 50%;
   transition: .3s;
-  background: #280ABB;
+  background: #757575;
   outline: none;
 
   &:hover, &:focus {
@@ -214,7 +214,7 @@ nav {
   }
 
   &.clicked {
-    background: #000;
+    background: #424242;
     outline: none;
   }
 
@@ -222,7 +222,7 @@ nav {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    background: #280ABB;
+    background: #424242;
     text-align: center;
     line-height: 1.5;
     color: #fff !important;
@@ -235,9 +235,18 @@ nav {
     transition: .4s;
     z-index: -1;
     &:hover, &:focus {
-      background-color: #fff;
+      background-color: #fff !important;
     }
   }
+
+.anav {
+  color: #43B3E0;
+  text-decoration: underline;
+
+  &:hover {
+    color: #424242 !important;
+  }
+}
 
   @for $i from 1 through 6 {
     $rot: (($i - 2) * 72);

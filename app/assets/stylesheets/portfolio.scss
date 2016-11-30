@@ -26,7 +26,7 @@
 	}
 
 	b, strong {
-		font-weight: 600;
+		font-weight: 500;
 		color: #3e3e3e;
 	}
 
@@ -252,7 +252,7 @@
 		display: inline-block;
 		color: #fff !important;
 		text-decoration: none;
-		font-weight: 700;
+		font-weight: 500;
 		border: 0;
 		outline: 0;
 		cursor: pointer;
@@ -260,7 +260,7 @@
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #4b9ccd;
 
 		&:hover {
 			background-color: #43bff0;
@@ -268,7 +268,7 @@
 		}
 
 		&:active {
-			background-color: #3BA8D3;
+			background-color: #4b9ccd;
 			top: 1px;
 		}
 
@@ -890,7 +890,7 @@
 				font-size: 1.2em;
 				width: 100%;
 				padding: 1em 0 1em 0;
-				background-color: #3E3279;
+				background-color: #4b9ccd;
 			}
 
 		/* List */
